@@ -30,3 +30,5 @@ sitemap:
   path: /sitemap
   defaults: { _controller: 'Bolt\Extension\Bolt\Sitemap\Extension::sitemap' }
 ```
+
+Content types that are set to `searchable: false` in `contenttypes.yml` won't be shown included in the generated sitemap.
